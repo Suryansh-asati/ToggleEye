@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color: black;
+}
+.container{
+    display:flex;
+}
+.container .eye{
+    position: relative;
+    width:100px;
+    height:100px;
+    display: block;
+    background-color: antiquewhite;
+    margin:10px;
+    border-radius:50%;
+}
+.pupil{
+    content:"";
+    top:50%;
+    left:50%;
+    width:40px;
+position:absolute;
+height:39px;
+background-color: black;
+border-radius:50%;
+transform:translate(-50%,-50%);
+}
